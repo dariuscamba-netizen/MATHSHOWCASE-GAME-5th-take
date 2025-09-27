@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MathLock Quiz</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+    iframe { width: 100%; height: 400px; border: none; margin-bottom: 20px; }
+    button {
+      font-size: 20px;
+      padding: 15px 30px;
+      margin: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .question { margin: 50px 0; padding: 20px; border: 1px solid #ccc; border-radius: 12px; }
+    .feedback { font-size: 24px; margin-top: 20px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>MathLock Quiz</h1>
+  <p>ENJOY THE GAME!!!!</p>
+
+  <!-- Question 1 -->
+  <div class="question" id="q1">
+    <h2>Question 1</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=1"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q1')">A</button>
+    <button onclick="checkAnswer('B','q1')">B</button>
+    <button onclick="checkAnswer('C','q1')">C</button>
+    <div id="feedback-q1" class="feedback"></div>
+  </div>
+
+  <!-- Question 2 -->
+  <div class="question" id="q2">
+    <h2>Question 2</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=2"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q2')">A</button>
+    <button onclick="checkAnswer('B','q2')">B</button>
+    <button onclick="checkAnswer('C','q2')">C</button>
+    <div id="feedback-q2" class="feedback"></div>
+  </div>
+
+  <!-- Question 3 -->
+  <div class="question" id="q3">
+    <h2>Question 3</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=3"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q3')">A</button>
+    <button onclick="checkAnswer('B','q3')">B</button>
+    <button onclick="checkAnswer('C','q3')">C</button>
+    <div id="feedback-q3" class="feedback"></div>
+  </div>
+
+  <!-- Question 4 -->
+  <div class="question" id="q4">
+    <h2>Question 4</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=4"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q4')">A</button>
+    <button onclick="checkAnswer('B','q4')">B</button>
+    <button onclick="checkAnswer('C','q4')">C</button>
+    <div id="feedback-q4" class="feedback"></div>
+  </div>
+
+  <!-- Question 5 -->
+  <div class="question" id="q5">
+    <h2>Question 5</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=5"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q5')">A</button>
+    <button onclick="checkAnswer('B','q5')">B</button>
+    <button onclick="checkAnswer('C','q5')">C</button>
+    <div id="feedback-q5" class="feedback"></div>
+  </div>
+
+<!-- Question 6 -->
+  <div class="question" id="q6">
+    <h2>Question 6</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=6"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q6')">A</button>
+    <button onclick="checkAnswer('B','q6')">B</button>
+    <button onclick="checkAnswer('C','q6')">C</button>
+    <div id="feedback-q6" class="feedback"></div>
+  </div>
+
+<!-- Question 7 -->
+  <div class="question" id="q7">
+    <h2>Question 7</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=7"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q7')">A</button>
+    <button onclick="checkAnswer('B','q7')">B</button>
+    <button onclick="checkAnswer('C','q7')">C</button>
+    <div id="feedback-q7" class="feedback"></div>
+  </div>
+  
+  <!-- Question 8 -->
+  <div class="question" id="q8">
+    <h2>Question 9</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=8"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q8')">A</button>
+    <button onclick="checkAnswer('B','q8')">B</button>
+    <button onclick="checkAnswer('C','q8')">C</button>
+    <div id="feedback-q8" class="feedback"></div>
+  </div>
+  
+  <!-- Question 9 -->
+  <div class="question" id="q9">
+    <h2>Question 9</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=9"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q9')">A</button>
+    <button onclick="checkAnswer('B','q9')">B</button>
+    <button onclick="checkAnswer('C','q9')">C</button>
+    <div id="feedback-q9" class="feedback"></div>
+  </div>
+  
+  <!-- Question 10 -->
+  <div class="question" id="q10">
+    <h2>Question 10</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=10"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q10')">A</button>
+    <button onclick="checkAnswer('B','q10')">B</button>
+    <button onclick="checkAnswer('C','q10')">C</button>
+    <div id="feedback-q10" class="feedback"></div>
+  </div>
+  
+  <!-- Question 11 -->
+  <div class="question" id="q11">
+    <h2>Question 11</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=11"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q11')">A</button>
+    <button onclick="checkAnswer('B','q11')">B</button>
+    <button onclick="checkAnswer('C','q11')">C</button>
+    <div id="feedback-q11" class="feedback"></div>
+  </div>
+  
+  <!-- Question 12 -->
+  <div class="question" id="q12">
+    <h2>Question 12</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=12"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q12')">A</button>
+    <button onclick="checkAnswer('B','q12')">B</button>
+    <button onclick="checkAnswer('C','q12')">C</button>
+    <div id="feedback-q12" class="feedback"></div>
+  </div>
+  
+  <!-- Question 13 -->
+  <div class="question" id="q13">
+    <h2>Question 13</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=13"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q13')">A</button>
+    <button onclick="checkAnswer('B','q13')">B</button>
+    <button onclick="checkAnswer('C','q13')">C</button>
+    <div id="feedback-q13" class="feedback"></div>
+  </div>
+  
+   <!-- Question 14 -->
+  <div class="question" id="q14">
+    <h2>Question 14</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=14"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q14')">A</button>
+    <button onclick="checkAnswer('B','q14')">B</button>
+    <button onclick="checkAnswer('C','q14')">C</button>
+    <div id="feedback-q14" class="feedback"></div>
+  </div>
+
+  
+ <!-- Question 15 -->
+  <div class="question" id="q15">
+    <h2>Question 15</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=15"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q15')">A</button>
+    <button onclick="checkAnswer('B','q15')">B</button>
+    <button onclick="checkAnswer('C','q15')">C</button>
+    <div id="feedback-q15" class="feedback"></div>
+  </div>
+<!-- Question 16 -->
+  <div class="question" id="q16">
+    <h2>Question 16</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=16"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q16')">A</button>
+    <button onclick="checkAnswer('B','q16')">B</button>
+    <button onclick="checkAnswer('C','q16')">C</button>
+    <div id="feedback-q16" class="feedback"></div>
+  </div>
+  <!-- Question 17 -->
+  <div class="question" id="q17">
+    <h2>Question 17</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=17"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q17')">A</button>
+    <button onclick="checkAnswer('B','q17')">B</button>
+    <button onclick="checkAnswer('C','q17')">C</button>
+    <div id="feedback-q17" class="feedback"></div>
+  </div>
+  <!-- Question 18 -->
+  <div class="question" id="q18">
+    <h2>Question 18</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=18"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q18')">A</button>
+    <button onclick="checkAnswer('B','q18')">B</button>
+    <button onclick="checkAnswer('C','q18')">C</button>
+    <div id="feedback-q18" class="feedback"></div>
+  </div> 
+  <!-- Question 19 -->
+  <div class="question" id="q19">
+    <h2>Question 19</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=19"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q13')">A</button>
+    <button onclick="checkAnswer('B','q13')">B</button>
+    <button onclick="checkAnswer('C','q13')">C</button>
+    <div id="feedback-q13" class="feedback"></div>
+  </div>
+    <!-- Question 20 -->
+  <div class="question" id="q20">
+    <h2>Question 20</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=20"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q20')">A</button>
+    <button onclick="checkAnswer('B','q20')">B</button>
+    <button onclick="checkAnswer('C','q20')">C</button>
+    <div id="feedback-q20" class="feedback"></div>
+  </div>
+
+  <!-- Question 21 -->
+  <div class="question" id="q21">
+    <h2>Question 21</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=21"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q21')">A</button>
+    <button onclick="checkAnswer('B','q21')">B</button>
+    <button onclick="checkAnswer('C','q21')">C</button>
+    <div id="feedback-q21" class="feedback"></div>
+  </div>
+
+  <!-- Question 22 -->
+  <div class="question" id="q22">
+    <h2>Question 22</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=22"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q22')">A</button>
+    <button onclick="checkAnswer('B','q22')">B</button>
+    <button onclick="checkAnswer('C','q22')">C</button>
+    <div id="feedback-q22" class="feedback"></div>
+  </div>
+
+  <!-- Question 23 -->
+  <div class="question" id="q23">
+    <h2>Question 23</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=23"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q23')">A</button>
+    <button onclick="checkAnswer('B','q23')">B</button>
+    <button onclick="checkAnswer('C','q23')">C</button>
+    <div id="feedback-q23" class="feedback"></div>
+  </div>
+
+  <!-- Question 24 -->
+  <div class="question" id="q24">
+    <h2>Question 24</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=24"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q24')">A</button>
+    <button onclick="checkAnswer('B','q24')">B</button>
+    <button onclick="checkAnswer('C','q24')">C</button>
+    <div id="feedback-q24" class="feedback"></div>
+  </div>
+
+  <!-- Question 25 -->
+  <div class="question" id="q25">
+    <h2>Question 25</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=25"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q25')">A</button>
+    <button onclick="checkAnswer('B','q25')">B</button>
+    <button onclick="checkAnswer('C','q25')">C</button>
+    <div id="feedback-q25" class="feedback"></div>
+  </div>
+
+  <!-- Question 26 -->
+  <div class="question" id="q26">
+    <h2>Question 26</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=26"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q26')">A</button>
+    <button onclick="checkAnswer('B','q26')">B</button>
+    <button onclick="checkAnswer('C','q26')">C</button>
+    <div id="feedback-q26" class="feedback"></div>
+  </div>
+
+  <!-- Question 27 -->
+  <div class="question" id="q27">
+    <h2>Question 27</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=27"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q27')">A</button>
+    <button onclick="checkAnswer('B','q27')">B</button>
+    <button onclick="checkAnswer('C','q27')">C</button>
+    <div id="feedback-q27" class="feedback"></div>
+  </div>
+
+  <!-- Question 28 -->
+  <div class="question" id="q28">
+    <h2>Question 28</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=28"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q28')">A</button>
+    <button onclick="checkAnswer('B','q28')">B</button>
+    <button onclick="checkAnswer('C','q28')">C</button>
+    <div id="feedback-q28" class="feedback"></div>
+  </div>
+
+  <!-- Question 29 -->
+  <div class="question" id="q29">
+    <h2>Question 29</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=29"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q29')">A</button>
+    <button onclick="checkAnswer('B','q29')">B</button>
+    <button onclick="checkAnswer('C','q29')">C</button>
+    <div id="feedback-q29" class="feedback"></div>
+  </div>
+
+  <!-- Question 30 -->
+  <div class="question" id="q30">
+    <h2>Question 30</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=30"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q30')">A</button>
+    <button onclick="checkAnswer('B','q30')">B</button>
+    <button onclick="checkAnswer('C','q30')">C</button>
+    <div id="feedback-q30" class="feedback"></div>
+  </div>
+
+  <!-- Question 31 -->
+  <div class="question" id="q31">
+    <h2>Question 31</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=31"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q31')">A</button>
+    <button onclick="checkAnswer('B','q31')">B</button>
+    <button onclick="checkAnswer('C','q31')">C</button>
+    <div id="feedback-q31" class="feedback"></div>
+  </div>
+
+  <!-- Question 32 -->
+  <div class="question" id="q32">
+    <h2>Question 32</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=32"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q32')">A</button>
+    <button onclick="checkAnswer('B','q32')">B</button>
+    <button onclick="checkAnswer('C','q32')">C</button>
+    <div id="feedback-q32" class="feedback"></div>
+  </div>
+
+  <!-- Question 33 -->
+  <div class="question" id="q33">
+    <h2>Question 33</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=33"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q33')">A</button>
+    <button onclick="checkAnswer('B','q33')">B</button>
+    <button onclick="checkAnswer('C','q33')">C</button>
+    <div id="feedback-q33" class="feedback"></div>
+  </div>
+
+  <!-- Question 34 -->
+  <div class="question" id="q34">
+    <h2>Question 34</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=34"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q34')">A</button>
+    <button onclick="checkAnswer('B','q34')">B</button>
+    <button onclick="checkAnswer('C','q34')">C</button>
+    <div id="feedback-q34" class="feedback"></div>
+  </div>
+
+  <!-- Question 35 -->
+  <div class="question" id="q35">
+    <h2>Question 35</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=35"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q35')">A</button>
+    <button onclick="checkAnswer('B','q35')">B</button>
+    <button onclick="checkAnswer('C','q35')">C</button>
+    <div id="feedback-q35" class="feedback"></div>
+  </div>
+
+  <!-- Question 36 -->
+  <div class="question" id="q36">
+    <h2>Question 36</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=36"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q36')">A</button>
+    <button onclick="checkAnswer('B','q36')">B</button>
+    <button onclick="checkAnswer('C','q36')">C</button>
+    <div id="feedback-q36" class="feedback"></div>
+  </div>
+
+  <!-- Question 37 -->
+  <div class="question" id="q37">
+    <h2>Question 37</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=37"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q37')">A</button>
+    <button onclick="checkAnswer('B','q37')">B</button>
+    <button onclick="checkAnswer('C','q37')">C</button>
+    <div id="feedback-q37" class="feedback"></div>
+  </div>
+
+  <!-- Question 38 -->
+  <div class="question" id="q38">
+    <h2>Question 38</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=38"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q38')">A</button>
+    <button onclick="checkAnswer('B','q38')">B</button>
+    <button onclick="checkAnswer('C','q38')">C</button>
+    <div id="feedback-q38" class="feedback"></div>
+  </div>
+
+  <!-- Question 39 -->
+  <div class="question" id="q39">
+    <h2>Question 39</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=39"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q39')">A</button>
+    <button onclick="checkAnswer('B','q39')">B</button>
+    <button onclick="checkAnswer('C','q39')">C</button>
+    <div id="feedback-q39" class="feedback"></div>
+  </div>
+
+  <!-- Question 40 -->
+  <div class="question" id="q40">
+    <h2>Question 40</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=40"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q40')">A</button>
+    <button onclick="checkAnswer('B','q40')">B</button>
+    <button onclick="checkAnswer('C','q40')">C</button>
+    <div id="feedback-q40" class="feedback"></div>
+  </div>
+
+  <!-- Question 41 -->
+  <div class="question" id="q41">
+    <h2>Question 41</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=41"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q41')">A</button>
+    <button onclick="checkAnswer('B','q41')">B</button>
+    <button onclick="checkAnswer('C','q41')">C</button>
+    <div id="feedback-q41" class="feedback"></div>
+  </div>
+
+  <!-- Question 42 -->
+  <div class="question" id="q42">
+    <h2>Question 42</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=42"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q42')">A</button>
+    <button onclick="checkAnswer('B','q42')">B</button>
+    <button onclick="checkAnswer('C','q42')">C</button>
+    <div id="feedback-q42" class="feedback"></div>
+  </div>
+
+  <!-- Question 43 -->
+  <div class="question" id="q43">
+    <h2>Question 43</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=43"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q43')">A</button>
+    <button onclick="checkAnswer('B','q43')">B</button>
+    <button onclick="checkAnswer('C','q43')">C</button>
+    <div id="feedback-q43" class="feedback"></div>
+  </div>
+
+  <!-- Question 44 -->
+  <div class="question" id="q44">
+    <h2>Question 44</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=44"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q44')">A</button>
+    <button onclick="checkAnswer('B','q44')">B</button>
+    <button onclick="checkAnswer('C','q44')">C</button>
+    <div id="feedback-q44" class="feedback"></div>
+  </div>
+
+  <!-- Question 45 -->
+  <div class="question" id="q45">
+    <h2>Question 45</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=45"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q45')">A</button>
+    <button onclick="checkAnswer('B','q45')">B</button>
+    <button onclick="checkAnswer('C','q45')">C</button>
+    <div id="feedback-q45" class="feedback"></div>
+  </div>
+
+  <!-- Question 46 -->
+  <div class="question" id="q46">
+    <h2>Question 46</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=46"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q46')">A</button>
+    <button onclick="checkAnswer('B','q46')">B</button>
+    <button onclick="checkAnswer('C','q46')">C</button>
+    <div id="feedback-q46" class="feedback"></div>
+  </div>
+
+  <!-- Question 47 -->
+  <div class="question" id="q47">
+    <h2>Question 47</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=47"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q47')">A</button>
+    <button onclick="checkAnswer('B','q47')">B</button>
+    <button onclick="checkAnswer('C','q47')">C</button>
+    <div id="feedback-q47" class="feedback"></div>
+  </div>
+
+  <!-- Question 48 -->
+  <div class="question" id="q48">
+    <h2>Question 48</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=48"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q48')">A</button>
+    <button onclick="checkAnswer('B','q48')">B</button>
+    <button onclick="checkAnswer('C','q48')">C</button>
+    <div id="feedback-q48" class="feedback"></div>
+  </div>
+
+  <!-- Question 49 -->
+  <div class="question" id="q49">
+    <h2>Question 49</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=49"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q49')">A</button>
+    <button onclick="checkAnswer('B','q49')">B</button>
+    <button onclick="checkAnswer('C','q49')">C</button>
+    <div id="feedback-q49" class="feedback"></div>
+  </div>
+
+  <!-- Question 50 -->
+  <div class="question" id="q50">
+    <h2>Question 50</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=50"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q50')">A</button>
+    <button onclick="checkAnswer('B','q50')">B</button>
+    <button onclick="checkAnswer('C','q50')">C</button>
+    <div id="feedback-q50" class="feedback"></div>
+  </div>
+
+  <!-- Question 51 -->
+  <div class="question" id="q51">
+    <h2>Question 51</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=51"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q51')">A</button>
+    <button onclick="checkAnswer('B','q51')">B</button>
+    <button onclick="checkAnswer('C','q51')">C</button>
+    <div id="feedback-q51" class="feedback"></div>
+  </div>
+
+  <!-- Question 52 -->
+  <div class="question" id="q52">
+    <h2>Question 52</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=52"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q52')">A</button>
+    <button onclick="checkAnswer('B','q52')">B</button>
+    <button onclick="checkAnswer('C','q52')">C</button>
+    <div id="feedback-q52" class="feedback"></div>
+  </div>
+
+  <!-- Question 53 -->
+  <div class="question" id="q53">
+    <h2>Question 53</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=53"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q53')">A</button>
+    <button onclick="checkAnswer('B','q53')">B</button>
+    <button onclick="checkAnswer('C','q53')">C</button>
+    <div id="feedback-q53" class="feedback"></div>
+  </div>
+
+  <!-- Question 54 -->
+  <div class="question" id="q54">
+    <h2>Question 54</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=54"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q54')">A</button>
+    <button onclick="checkAnswer('B','q54')">B</button>
+    <button onclick="checkAnswer('C','q54')">C</button>
+    <div id="feedback-q54" class="feedback"></div>
+  </div>
+
+  <!-- Question 55 -->
+  <div class="question" id="q55">
+    <h2>Question 55</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=55"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q55')">A</button>
+    <button onclick="checkAnswer('B','q55')">B</button>
+    <button onclick="checkAnswer('C','q55')">C</button>
+    <div id="feedback-q55" class="feedback"></div>
+  </div>
+
+  <!-- Question 56 -->
+  <div class="question" id="q56">
+    <h2>Question 56</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=56"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q56')">A</button>
+    <button onclick="checkAnswer('B','q56')">B</button>
+    <button onclick="checkAnswer('C','q56')">C</button>
+    <div id="feedback-q56" class="feedback"></div>
+  </div>
+
+  <!-- Question 57 -->
+  <div class="question" id="q57">
+    <h2>Question 57</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=57"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q57')">A</button>
+    <button onclick="checkAnswer('B','q57')">B</button>
+    <button onclick="checkAnswer('C','q57')">C</button>
+    <div id="feedback-q57" class="feedback"></div>
+  </div>
+
+  <!-- Question 58 -->
+  <div class="question" id="q58">
+    <h2>Question 58</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=58"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q58')">A</button>
+    <button onclick="checkAnswer('B','q58')">B</button>
+    <button onclick="checkAnswer('C','q58')">C</button>
+    <div id="feedback-q58" class="feedback"></div>
+  </div>
+
+  <!-- Question 59 -->
+  <div class="question" id="q59">
+    <h2>Question 59</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=59"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q59')">A</button>
+    <button onclick="checkAnswer('B','q59')">B</button>
+    <button onclick="checkAnswer('C','q59')">C</button>
+    <div id="feedback-q59" class="feedback"></div>
+  </div>
+
+  <!-- Question 60 -->
+  <div class="question" id="q60">
+    <h2>Question 60</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=60"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q60')">A</button>
+    <button onclick="checkAnswer('B','q60')">B</button>
+    <button onclick="checkAnswer('C','q60')">C</button>
+    <div id="feedback-q60" class="feedback"></div>
+  </div>
+
+  <!-- Question 61 -->
+  <div class="question" id="q61">
+    <h2>Question 61</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=61"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q61')">A</button>
+    <button onclick="checkAnswer('B','q61')">B</button>
+    <button onclick="checkAnswer('C','q61')">C</button>
+    <div id="feedback-q61" class="feedback"></div>
+  </div>
+
+  <!-- Question 62 -->
+  <div class="question" id="q62">
+    <h2>Question 62</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=62"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q62')">A</button>
+    <button onclick="checkAnswer('B','q62')">B</button>
+    <button onclick="checkAnswer('C','q62')">C</button>
+    <div id="feedback-q62" class="feedback"></div>
+  </div>
+
+  <!-- Question 63 -->
+  <div class="question" id="q63">
+    <h2>Question 63</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=63"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q63')">A</button>
+    <button onclick="checkAnswer('B','q63')">B</button>
+    <button onclick="checkAnswer('C','q63')">C</button>
+    <div id="feedback-q63" class="feedback"></div>
+  </div>
+
+  <!-- Question 64 -->
+  <div class="question" id="q64">
+    <h2>Question 64</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=64"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q64')">A</button>
+    <button onclick="checkAnswer('B','q64')">B</button>
+    <button onclick="checkAnswer('C','q64')">C</button>
+    <div id="feedback-q64" class="feedback"></div>
+  </div>
+
+  <!-- Question 65 -->
+  <div class="question" id="q65">
+    <h2>Question 65</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=65"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q65')">A</button>
+    <button onclick="checkAnswer('B','q65')">B</button>
+    <button onclick="checkAnswer('C','q65')">C</button>
+    <div id="feedback-q65" class="feedback"></div>
+  </div>
+
+  <!-- Question 66 -->
+  <div class="question" id="q66">
+    <h2>Question 66</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=66"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q66')">A</button>
+    <button onclick="checkAnswer('B','q66')">B</button>
+    <button onclick="checkAnswer('C','q66')">C</button>
+    <div id="feedback-q66" class="feedback"></div>
+  </div>
+
+  <!-- Question 67 -->
+  <div class="question" id="q67">
+    <h2>Question 67</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=67"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q67')">A</button>
+    <button onclick="checkAnswer('B','q67')">B</button>
+    <button onclick="checkAnswer('C','q67')">C</button>
+    <div id="feedback-q67" class="feedback"></div>
+  </div>
+
+  <!-- Question 68 -->
+  <div class="question" id="q68">
+    <h2>Question 68</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=68"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q68')">A</button>
+    <button onclick="checkAnswer('B','q68')">B</button>
+    <button onclick="checkAnswer('C','q68')">C</button>
+    <div id="feedback-q68" class="feedback"></div>
+  </div>
+
+  <!-- Question 69 -->
+  <div class="question" id="q69">
+    <h2>Question 69</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=69"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q69')">A</button>
+    <button onclick="checkAnswer('B','q69')">B</button>
+    <button onclick="checkAnswer('C','q69')">C</button>
+    <div id="feedback-q69" class="feedback"></div>
+  </div>
+
+  <!-- Question 70 -->
+  <div class="question" id="q70">
+    <h2>Question 70</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=70"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q70')">A</button>
+    <button onclick="checkAnswer('B','q70')">B</button>
+    <button onclick="checkAnswer('C','q70')">C</button>
+    <div id="feedback-q70" class="feedback"></div>
+  </div>
+
+  <!-- Question 71 -->
+  <div class="question" id="q71">
+    <h2>Question 71</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=71"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q71')">A</button>
+    <button onclick="checkAnswer('B','q71')">B</button>
+    <button onclick="checkAnswer('C','q71')">C</button>
+    <div id="feedback-q71" class="feedback"></div>
+  </div>
+
+  <!-- Question 72 -->
+  <div class="question" id="q72">
+    <h2>Question 72</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=72"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q72')">A</button>
+    <button onclick="checkAnswer('B','q72')">B</button>
+    <button onclick="checkAnswer('C','q72')">C</button>
+    <div id="feedback-q72" class="feedback"></div>
+  </div>
+
+  <!-- Question 73 -->
+  <div class="question" id="q73">
+    <h2>Question 73</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=73"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q73')">A</button>
+    <button onclick="checkAnswer('B','q73')">B</button>
+    <button onclick="checkAnswer('C','q73')">C</button>
+    <div id="feedback-q73" class="feedback"></div>
+  </div>
+
+  <!-- Question 74 -->
+  <div class="question" id="q74">
+    <h2>Question 74</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=74"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q74')">A</button>
+    <button onclick="checkAnswer('B','q74')">B</button>
+    <button onclick="checkAnswer('C','q74')">C</button>
+    <div id="feedback-q74" class="feedback"></div>
+  </div>
+
+  <!-- Question 75 -->
+  <div class="question" id="q75">
+    <h2>Question 75</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=75"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q75')">A</button>
+    <button onclick="checkAnswer('B','q75')">B</button>
+    <button onclick="checkAnswer('C','q75')">C</button>
+    <div id="feedback-q75" class="feedback"></div>
+  </div>
+
+  <!-- Question 76 -->
+  <div class="question" id="q76">
+    <h2>Question 76</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=76"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q76')">A</button>
+    <button onclick="checkAnswer('B','q76')">B</button>
+    <button onclick="checkAnswer('C','q76')">C</button>
+    <div id="feedback-q76" class="feedback"></div>
+  </div>
+
+  <!-- Question 77 -->
+  <div class="question" id="q77">
+    <h2>Question 77</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=77"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q77')">A</button>
+    <button onclick="checkAnswer('B','q77')">B</button>
+    <button onclick="checkAnswer('C','q77')">C</button>
+    <div id="feedback-q77" class="feedback"></div>
+  </div>
+
+  <!-- Question 78 -->
+  <div class="question" id="q78">
+    <h2>Question 78</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=78"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q78')">A</button>
+    <button onclick="checkAnswer('B','q78')">B</button>
+    <button onclick="checkAnswer('C','q78')">C</button>
+    <div id="feedback-q78" class="feedback"></div>
+  </div>
+
+  <!-- Question 79 -->
+  <div class="question" id="q79">
+    <h2>Question 79</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=79"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q79')">A</button>
+    <button onclick="checkAnswer('B','q79')">B</button>
+    <button onclick="checkAnswer('C','q79')">C</button>
+    <div id="feedback-q79" class="feedback"></div>
+  </div>
+
+  <!-- Question 80 -->
+  <div class="question" id="q80">
+    <h2>Question 80</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=80"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q80')">A</button>
+    <button onclick="checkAnswer('B','q80')">B</button>
+    <button onclick="checkAnswer('C','q80')">C</button>
+    <div id="feedback-q80" class="feedback"></div>
+  </div>
+
+  <!-- Question 81 -->
+  <div class="question" id="q81">
+    <h2>Question 81</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=81"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q81')">A</button>
+    <button onclick="checkAnswer('B','q81')">B</button>
+    <button onclick="checkAnswer('C','q81')">C</button>
+    <div id="feedback-q81" class="feedback"></div>
+  </div>
+
+  <!-- Question 82 -->
+  <div class="question" id="q82">
+    <h2>Question 82</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=82"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q82')">A</button>
+    <button onclick="checkAnswer('B','q82')">B</button>
+    <button onclick="checkAnswer('C','q82')">C</button>
+    <div id="feedback-q82" class="feedback"></div>
+  </div>
+
+  <!-- Question 83 -->
+  <div class="question" id="q83">
+    <h2>Question 83</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=83"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q83')">A</button>
+    <button onclick="checkAnswer('B','q83')">B</button>
+    <button onclick="checkAnswer('C','q83')">C</button>
+    <div id="feedback-q83" class="feedback"></div>
+  </div>
+
+  <!-- Question 84 -->
+  <div class="question" id="q84">
+    <h2>Question 84</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=84"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q84')">A</button>
+    <button onclick="checkAnswer('B','q84')">B</button>
+    <button onclick="checkAnswer('C','q84')">C</button>
+    <div id="feedback-q84" class="feedback"></div>
+  </div>
+
+  <!-- Question 85 -->
+  <div class="question" id="q85">
+    <h2>Question 85</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=85"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q85')">A</button>
+    <button onclick="checkAnswer('B','q85')">B</button>
+    <button onclick="checkAnswer('C','q85')">C</button>
+    <div id="feedback-q85" class="feedback"></div>
+  </div>
+
+  <!-- Question 86 -->
+  <div class="question" id="q86">
+    <h2>Question 86</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=86"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q86')">A</button>
+    <button onclick="checkAnswer('B','q86')">B</button>
+    <button onclick="checkAnswer('C','q86')">C</button>
+    <div id="feedback-q86" class="feedback"></div>
+  </div>
+
+  <!-- Question 87 -->
+  <div class="question" id="q87">
+    <h2>Question 87</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=87"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q87')">A</button>
+    <button onclick="checkAnswer('B','q87')">B</button>
+    <button onclick="checkAnswer('C','q87')">C</button>
+    <div id="feedback-q87" class="feedback"></div>
+  </div>
+
+  <!-- Question 88 -->
+  <div class="question" id="q88">
+    <h2>Question 88</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=88"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q88')">A</button>
+    <button onclick="checkAnswer('B','q88')">B</button>
+    <button onclick="checkAnswer('C','q88')">C</button>
+    <div id="feedback-q88" class="feedback"></div>
+  </div>
+
+  <!-- Question 89 -->
+  <div class="question" id="q89">
+    <h2>Question 89</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=89"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q89')">A</button>
+    <button onclick="checkAnswer('B','q89')">B</button>
+    <button onclick="checkAnswer('C','q89')">C</button>
+    <div id="feedback-q89" class="feedback"></div>
+  </div>
+
+  <!-- Question 90 -->
+  <div class="question" id="q90">
+    <h2>Question 90</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSVyIOF6vaEcIkpt_tl1tkwEEKaa1kI2Jlwvj4Zss06vmlVdDoeXkn3pw0Gl6bmsN69vduKqTTUliJ_/pubembed?start=false&loop=false&delayms=3000&slide=90"></iframe>
+    <h3>Choose Your Answer:</h3>
+    <button onclick="checkAnswer('A','q90')">A</button>
+    <button onclick="checkAnswer('B','q90')">B</button>
+    <button onclick="checkAnswer('C','q90')">C</button>
+    <div id="feedback-q90" class="feedback"></div>
+  </div>
+
+ <script>
+ 
+    // ✅ Correct answes
+    const answers = {
+  q1: "A",
+  q2: "B",
+  q3: "B",
+  q4: "B",
+  q5: "C",
+  q6: "B",
+  q7: "C",
+  q8: "B",
+  q9: "B",
+  q10: "B",
+
+  q11: "B",
+  q12: "C",
+  q13: "B",
+  q14: "C",
+  q15: "C",
+  q16: "B",
+  q17: "A",
+  q18: "A",
+  q19: "B",
+  q20: "B",
+
+  q21: "B",
+  q22: "B",
+  q23: "B",
+  q24: "B",
+  q25: "B",
+  q26: "B",
+  q27: "A",
+  q28: "C",
+  q29: "A",
+  q30: "B",
+
+  q31: "B",
+  q32: "A",
+  q33: "C",
+  q34: "A",
+  q35: "A",
+  q36: "A",
+  q37: "B",
+  q38: "A",
+  q39: "A",
+  q40: "A",
+
+  q41: "A",
+  q42: "A",
+  q43: "A",
+  q44: "B",
+  q45: "A",
+  q46: "B",
+  q47: "A",
+  q48: "B",
+  q49: "B",
+  q50: "B",
+
+  q51: "A",
+  q52: "B",
+  q53: "A",
+  q54: "A",
+  q55: "A",
+  q56: "A",
+  q57: "A",
+  q58: "A",
+  q59: "B",
+  q60: "B",
+
+  q61: "A",
+  q62: "B",
+  q63: "B",
+  q64: "A",
+  q65: "A",
+  q66: "C",
+  q67: "A",
+  q68: "C",
+  q69: "B",
+  q70: "A",
+
+  q71: "A",
+  q72: "A",
+  q73: "A",
+  q74: "B",
+  q75: "B",
+  q76: "C",
+  q77: "B",
+  q78: "A",
+  q79: "B",
+  q80: "C",
+
+  q81: "B",
+  q82: "A",
+  q83: "B",
+  q84: "A",
+  q85: "A",
+  q86: "B",
+  q87: "B",
+  q88: "B",
+  q89: "A",
+  q90: "B"
+
+
+    };
+
+    function checkAnswer(choice, qid) {
+      const feedback = document.getElementById("feedback-" + qid);
+      if (!feedback) return; // safety check
+
+      if (choice === answers[qid]) {
+        feedback.innerHTML = "✅ Correct!";
+        feedback.style.color = "green";
+      } else {
+        feedback.innerHTML = "❌ Wrong!";
+        feedback.style.color = "red";
+      }
+    }
+  </script>
+</body>
+</html>
